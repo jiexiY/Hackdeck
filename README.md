@@ -1,5 +1,7 @@
 # HACKdeck
 
+[English](README.md) | [简体中文](README.zh-CN.md) | [Español](README.es.md)
+
 HACKdeck is a public, multilingual tracker for verified hackathons, build weeks, and major AI/technology company programs. It presents opportunities as a connected chronological deck so builders can compare dates, deadlines, location, eligibility, format, prizes, and status.
 
 **Live site:** [hackdeck-app.vercel.app](https://hackdeck-app.vercel.app/)
