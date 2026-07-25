@@ -51,6 +51,10 @@ Al actualizar el feed:
 
 Los hackatones guardados permanecen en el navegador mediante almacenamiento local. HACKdeck no requiere una cuenta ni carga los datos guardados. Las personas visitantes pueden exportar una copia de seguridad JSON e importarla en otro navegador o dispositivo.
 
+## Nota de la persona creadora
+
+HACKdeck está actualmente abierto a todo el mundo y no requiere iniciar sesión ni registrarse. Quiero que siga siendo fácil de explorar y útil desde el primer clic. Si suficientes personas muestran interés, podría añadir un sistema de inicio de sesión y registro en el futuro para mejorar la seguridad y permitir formas más seguras de guardar información entre dispositivos. Cualquier cambio de este tipo se explicará claramente antes de introducirse.
+
 ## Contribuir
 
 Las pull requests son bienvenidas. Para añadir o corregir un evento, incluye la fuente oficial de la empresa o de la organización que confirme la información enviada.

@@ -51,6 +51,10 @@ When updating the feed:
 
 Saved hackathons remain in the visitor's browser using local storage. HACKdeck does not require an account and does not upload saved-event data. Visitors can export a JSON backup and import it on another browser or device.
 
+## A note from the creator
+
+HACKdeck is currently open to everyone—no login or sign-up is required. I want it to remain easy to explore and useful from the first click. If enough people are interested, I may introduce a login and sign-up system in the future to improve security and support safer ways to save information across devices. Any such change will be explained clearly before it is introduced.
+
 ## Contributing
 
 Pull requests are welcome. For event additions or corrections, include the official company or organizer source that confirms the submitted information.
