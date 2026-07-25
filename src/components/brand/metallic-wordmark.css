@@ -1,0 +1,56 @@
+.metallic-wordmark {
+  position: relative;
+  width: min(100%, 520px);
+  height: clamp(116px, 14vw, 164px);
+}
+
+.metallic-wordmark__fallback {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+  background: linear-gradient(
+    102deg,
+    #ffffff 0%,
+    #7f8883 19%,
+    #eef4f0 34%,
+    #555e59 51%,
+    #ffffff 68%,
+    #909994 83%,
+    #e9efec 100%
+  );
+  background-size: 220% 100%;
+  background-position: 100% 0;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: clamp(58px, 5vw, 76px);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.07em;
+  white-space: nowrap;
+  animation: hackdeck-metal-sweep 5.5s linear infinite;
+  opacity: 0.9;
+  pointer-events: none;
+  text-shadow: 0 0 26px rgb(255 255 255 / 0.06);
+}
+
+.metallic-wordmark__fallback strong {
+  font-weight: 780;
+}
+
+@keyframes hackdeck-metal-sweep {
+  to {
+    background-position: -120% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .metallic-wordmark__fallback {
+    animation: none;
+    background-position: 44% 0;
+  }
+}
